@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    padding-bottom: 5%;
+  }
+  
+  .table {
+    width: 100px;
+    height: 100px;
+    /*margin: 25px;*/
+    background: lightgrey;
+    border-radius: 50px;
+    /*display: inline-block;*/
+    
+  }
+  
+  .table:hover {
+    background-color: darkgrey;
+  }
+  
+  .tableNum {
+    text-align:center; 
+    vertical-align: middle;
+    position: relative;
+    top: 25px;
+  }
+  
+  
