@@ -13,7 +13,7 @@ label {
 }
 
 input {
-  width: auto;
+  width: 200px;
   float: right;
   padding-right: 60px; 
 }
@@ -97,5 +97,7 @@ input {
 }
 
 #savebtn {
-  height: 100px;
+  width: 100%;
+  background-color: teal;
+  border-radius: 5px;
 }
