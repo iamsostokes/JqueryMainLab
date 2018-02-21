@@ -1,16 +1,17 @@
-
 $('#reservation-form').hide();
 var currentTable;
 $('.table').on('click',function(){
   var number = $(this).find('.tableNum').text();
   $('#reservation-form h2').text('Table Number: ' + number);
-  $('#reservation-form').show();
+  $('#reservation-form').fadeIn('slow');
   currentTable = $(this);
+  
+  $('#reservation-form :input').val('');
   
 });
 
 $('.close').on('click', function(){
-  $('#reservation-form').hide();
+  $('#reservation-form').fadeOut('slow');
 });
 
 
@@ -33,5 +34,8 @@ $('#savebtn').on('click', function(){
   `);
   // customer_reservation.push(reserved);
   $('#reservation-form').hide();
+  
 });
   
+
+
